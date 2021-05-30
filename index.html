@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BizPro | Centro de Certificaciones</title>
+    
+    <!--BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--PROPIO CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--CABECERA-->
+    <header>
+        <div class="row">
+            <div class="col-12 cabecera">
+                <p>¡Bienvenido a BizPro!</p>
+            </div>
+        </div>
+    </header>
+
+    <!--NAVEGACION-->    
+    <nav class="row navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-3 px-sm-auto">
+      <a class="navbar-brand" href="#"><img src="img/logo-2.png" alt="Logo" class="logo"><span class="nombre-logo">BIZPRO</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nosotros
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Historia</a>
+              <a class="dropdown-item" href="#">Mision</a>
+              <a class="dropdown-item" href="#">Vision</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Docentes</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Carrito(0)</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+    </nav>
+    <!-- SLIDER -->
+    <div class="containerfluid-xl">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 img-fluid" src="img/slider1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Bizpro SAC</h1>
+            <p style="font-size: 23px;"> Centro de Certificacione y Talleres Online.
+              El #1 en el Norte del Pais.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-fluid" src="img/pexels-thisisengineering-3861969.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-fluid" src="img/pexels-ketut-subiyanto-4559978.jpg" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+    <!-- CURSOS-->
+    <section class="py-5">
+      <div class="container-fluid text-center mb-5">
+        <h2 style="color: blanchedalmond; font-weight: bold;">Cursos mas vendidos</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h3 class="text-center">JAVASCRIPT</h3>
+                <img class="img-fluid img-curso" src="img/curso_js.png" alt="Curso JavaScript"> <br>
+                <a href="#">In al Curso</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body text-center">
+                <h3>HTML Fundation</h3>
+                <img class="img-fluid img-curso" src="img/curso_html.png" alt="Curso HTML"><br>
+                <a href="#" style="color: #fff!important;">Ir al Curso</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-center">
+              <div class="card-body">
+                <h3>MYSQL</h3>
+                <img class="img-fluid img-curso" src="img/img_mysql.png" alt="Curso Mysql"><br>
+                <a href="#">In al Curso</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body text-center">
+                <h3>ANGULAR Fundation</h3>
+                <img class="img-fluid img-curso" src="img/img_angular.png" alt="Curso Angular"><br>
+                <a href="#" style="color: #fff!important;">In al Curso</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ACORDION-->
+    <section class="container text-center p-5">
+      <div class="container-fluid text-center mb-5">
+        <h2 style="color: blanchedalmond; font-weight: bold;">FAQ</h2>
+      </div>
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Cual es Nuestro Objetivo?
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                La Educación es una de las actividades más importantes de todo profesional de cualquier Area, y este sitio web tiene como objetivo aportar ayuda tanto en recursos como en contenido, para que sea mucho más sencilo aprender lo que te gusta. sientete Libre de dar sugerencias sobre que temas te gustaria ver en este sitio pronto.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  ¿Dan certificados?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                En las especialidades y cursos, el sistema genera automáticamente un certificado cuando la completas. Este certificado tiene un id único y lo puedes compartir en Linkedin o en tu perfil público. Adicionalmente, en talleres y cursos presenciales entregamos certificados de participación.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="pie">
+      <div class="container p-3 text-white text-center">
+        <p>Derechos Reservados Nelson Alejandro Anegles Piedra &copy; 2020</p>
+      </div>
+    </footer>
+
+    <!--BOOTSTRAP JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

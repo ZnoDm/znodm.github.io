@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+body{
+    background: #34495e;
+}
+.nombre-logo{
+    font-family: 'Langar', cursive;
+    font-size: 36px;
+    vertical-align: middle;
+}
+.cabecera{
+    height: 50px;
+    background: #0E3A5B;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.logo{
+    width: 80px;
+}
+.navbar{
+    box-shadow: 2px 2px 5px #0E3A5B;
+}
+.navbar .nav-item .nav-link{
+    color: #0E3A5B;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pie{
+    background: #0E3A5B;
+}
+.btn-outline-success{
+    background-color: #2980b9;
+    color: #fff!important;
+    border: #ecf0f1!important;
+}
+.btn-outline-success:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+.btn-outline-success:active{
+    border: #ecf0f1;
+}
+.accordion .card{
+    background-color:#7ed6df;
+}
+.accordion button{
+    color:#fff!important;
+    font-weight: 600;
+}
+.img-curso{
+    height: 150px;
+    width: 150px;
+}
